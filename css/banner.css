@@ -1,0 +1,31 @@
+.home-banner{
+   background-image: linear-gradient(180deg, rgba(3,3,3,0.7315301120448179) 91%, rgba(0,0,0,1) 100%), url('https://img.freepik.com/free-photo/rows-books-library_73152-2680.jpg?size=626&ext=jpg');
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   color: white;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.banner-content h1{
+  padding: 20px 0;
+}
+
+button{
+	font-size: 20px;
+  border: solid 1px #b0cac7;
+  background-color: #005086;
+  border-radius: 10px;
+  height: 48px;
+  width: 175.063px;
+}
+button a{
+  color: white;
+}
+
+button a:hover{
+  color: #b0cac7;
+}

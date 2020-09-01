@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="https://i.pinimg.com/originals/dd/64/da/dd64da585bc57cb05e5fd4d8ce873f57.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Book Basement</title>
+</head>
+<body>
+	<header id="header">
+    	<a href="index.html"><img id="header-img" src="https://i.pinimg.com/originals/dd/64/da/dd64da585bc57cb05e5fd4d8ce873f57.png"></a>
+	    <nav id="nav-bar">
+	      <ul>
+	        <li class="nav-link">
+	          <a href="#home">Home</a>
+	        </li>
+	        <li class="nav-link">
+	          <a href="#pricing">Pricing</a>
+	        </li>
+	        <li class="nav-link">
+	          <a href="#product">Product</a>
+	        </li>
+	      </ul>
+	    </nav>
+	  </header>
+
+	  <section id="home">
+	      <div class="home-banner">
+	        <div class="banner-content">
+	          <h1>The Book Basement</h1>
+	          <button><a href="#pricing">Get Started</a></button>
+	        </div>
+	      </div>
+	  </section>
+
+	  <h1 id="pricing">Pricing</h1>
+	  <section id="price">
+	  	<div class="card">
+	  		<h2>Action and Adventure</h2>
+	  		<h3>$13.95</h3>
+	  		<a href="https://www.penguin.co.uk/books/1118026/black-sun/9781787631823.html" target="_blank">Black Sun</a>
+	  		<a href="https://www.penguin.co.uk/books/313679/whale-in-a-fishbowl/9780241418819.html" target="_blank">Whale in a Fishbowl</a>
+	  		<a href="https://www.penguin.co.uk/books/1108378/final-cut/9780857523051.html" target="_blank">Final Cut</a>
+	  		<a href="https://www.penguin.co.uk/books/313413/animal-farm/9780241391853.html" target="_blank">Animal Farm</a>
+	  	</div>
+
+	  	<div class="card">
+	  		<h2>Fantasy</h2>
+	  		<h3>$16.95</h3>
+	  		<a href="https://www.goodreads.com/book/show/13496.A_Game_of_Thrones" target="_blank">A Game of Thrones</a>
+	  		<a href="https://www.goodreads.com/book/show/61975.Dragonflight" target="_blank">Dragonflight</a>
+	  		<a href="https://www.goodreads.com/book/show/113436.Eragon" target="_blank">Eragon</a>
+	  		<a href="https://www.goodreads.com/book/show/55399.Gardens_of_the_Moon" target="_blank">Gardens of the Moon</a>
+	  	</div>
+
+	  	<div class="card">
+	  		<h2>Sci-Fi</h2>
+	  		<h3>$17.95</h3>
+	  		<a href="https://www.penguinrandomhouse.com/books/326569/1984-by-george-orwell-with-a-foreword-by-thomas-pynchon/" target="_blank">1984</a>
+	  		<a href="https://www.penguinrandomhouse.com/books/546226/amatka-by-karin-tidbeck/" target="_blank">Amatka</a>
+	  		<a href="https://www.penguinrandomhouse.com/books/71963/ammonite-by-nicola-griffith/" target="_blank">Ammonite</a>
+	  		<a href="https://www.penguinrandomhouse.com/books/10211/dust-by-elizabeth-bear/" target="_blank">Dust</a>
+	  	</div>
+	  </section>
+
+	  <section id="product">
+	      <h1>Product</h1>
+	      <iframe id="video" src="https://www.youtube.com/embed/jdjYt7DFsZg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>A video about why you should read books</iframe>
+	  </section>
+
+	  <section id="contact">
+	  	<h2> The best books you'll ever read! </h2>
+	  	<form id="form" action="https://www.freecodecamp.com/email-submit">
+  	      <input id="email" type="email" name="email" placeholder="Enter your email address" required><br>
+  	      <input id="submit" type="submit">
+  	    </form>
+	  </section>
+
+	  <footer>
+	  	<blockquote>Copyright 2020 &copy; The Book Basement</blockquote>
+	  </footer>
+
+	  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	  <script>
+	  	$(function () {
+	  	    $(window).on('scroll', function () {
+	  	        $('header').toggleClass('scrolled', $(this).scrollTop()>500);
+	  	    });
+	  	});
+	  </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import 'nav.css';
+@import 'banner.css';
+@import 'pricing.css';
+@import 'contact.css';
+@import 'footer.css';
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #f2f2f2;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	font-size: 35px;
+}
+
+img#header-img {
+	height: 60px;
+	width: auto;
+	border-radius: 50%;
+	margin: 5px 20px;
+}
+
+#header{
+	display: flex;
+	justify-content: space-between;
+	background: #005086;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+}
+
+.scrolled{
+	opacity: 0.7;
+}
+
+a{
+  text-decoration: none;
+}
+
+#product{
+	text-align: center;
+}
+
+iframe#video{
+	width: 50vw;
+	height: 50vh;
+	padding-top: 15px;
+}
+
+@media (max-width: 767px){
+	iframe#video{
+		width: 90vw;
+		height: 75vh;
+	}
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
